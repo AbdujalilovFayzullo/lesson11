@@ -1,0 +1,32 @@
+.footer{
+    background: #333A44;
+    &__block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__list{
+        display: flex;
+        gap: 32px;
+    }
+    &__left{
+        display: flex;
+        gap: 58px;
+        align-items: center;
+    }
+    &__link{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+    }
+    &__icon_link{
+        margin-left: 24px;
+    }
+    &__logo{
+        padding-top: 35px;
+        padding-bottom: 32px;
+    }
+}

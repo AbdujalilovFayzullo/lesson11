@@ -1,0 +1,20 @@
+@import 'mixin.scss';
+@import 'normalize.scss';
+
+@import 'block/footer.scss';
+@import 'block/info.scss';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a{
+    text-decoration: none;
+}
+ol,ul{
+    list-style: none;
+}
