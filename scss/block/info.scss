@@ -1,0 +1,22 @@
+.info{
+    background: #495567;
+    background-image: url('../../img/bgimg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    &__block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: #FFFFFF;
+        max-width: 445px;
+        padding: 102px 0;
+    }
+}

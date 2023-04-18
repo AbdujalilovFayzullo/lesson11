@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+.footer {
+  background: #333A44;
+}
+.footer__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__list {
+  display: flex;
+  gap: 32px;
+}
+.footer__left {
+  display: flex;
+  gap: 58px;
+  align-items: center;
+}
+.footer__link {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+.footer__icon_link {
+  margin-left: 24px;
+}
+.footer__logo {
+  padding-top: 35px;
+  padding-bottom: 32px;
+}
+
+.info {
+  background: #495567;
+  background-image: url("../../img/bgimg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.info__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info__title {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #FFFFFF;
+  max-width: 445px;
+  padding: 102px 0;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+/*# sourceMappingURL=main.css.map */
